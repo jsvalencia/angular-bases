@@ -4,10 +4,12 @@ import { AppComponent } from './app.component';
 
 import { CounterModule } from './counter/components/counter/counter.module';
 import { HeroesModule } from './heroes/components/heroes.module';
+import { CalculadoraComponent } from './calculadora/calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CalculadoraComponent,
 
   ],
   imports: [

@@ -1,0 +1,27 @@
+<h3>Calculadora</h3>
+<label style="text-align:center">{{pantalla}}</label>
+<br>
+<button class="btn btn-dark mx-1">OFF</button>
+<button class="btn btn-dark mx-1" (click)="reset()">C</button>
+<br>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(7)">7</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(8)">8</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(9)">9</button>
+<button class="btn btn-dark m-md-1"(click)="RecibirOperador('%')">%</button>
+<br>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(4)">4</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(5)">5</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(6)">6</button>
+<button class="btn btn-dark m-md-1"(click)="RecibirOperador('x')">X</button>
+<br>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(1)">1</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(2)">2</button>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(3)">3</button>
+<button class="btn btn-dark m-md-1"(click)="RecibirOperador('-')">-</button>
+<br>
+<button class="btn btn-secondary m-md-1" (click)="valorPantalla(0)">0</button>
+<button class="btn btn-dark m-md-1" (click)="resultado()">=</button>
+<button class="btn btn-dark m-md-1" (click)="RecibirOperador('+')">+</button>
+<br>
+
+
