@@ -1,6 +1,6 @@
 <h1>DBZ Personajes</h1>
 <hr>
-<app-dbz-list></app-dbz-list>
-<app-dbz-add-character></app-dbz-add-character>
+<app-dbz-list [characterList]="characters" (onEmitCharacter)="RecepcionIdDeleted($event)"></app-dbz-list>
+<dbz-add-character (onNewCharacter)="onNewCharacter($event)"></dbz-add-character>
 
 
